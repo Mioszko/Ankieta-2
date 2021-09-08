@@ -64,6 +64,7 @@ span.bold {
     max-width: 1200px;
 }
 
+
 .question-style {
     display: flex;
     font-size: 24px;
@@ -77,14 +78,19 @@ span.bold {
 }
 
 
+label[for="x1"],
+label[for="x2"] {
+    padding-inline: 100px;
+}
+
 
 
 label {
     display: flex;
     align-items: center;
-    margin-top: -3px;
+    margin-top: 3px;
     padding: 10px 25px;
-    border: solid 3px black;
+    outline: solid 3px black;
     background-color: white;
     letter-spacing: 0px;
 }
@@ -98,7 +104,7 @@ input[type="radio"] {
 label:hover {
     transition: 2000ms;
     color:white;
-    border: solid 3px black;
+    outline: solid 3px black;
     background-color: black;
 }
 
@@ -126,7 +132,7 @@ h4 {
     font-weight: 450;
     margin-top: 40px;
     margin-bottom: 40px;
-    padding: 5px;
+    padding: 5px 80px;
     color:white;
     outline: solid 3px white;
     background-color: black;
@@ -136,9 +142,14 @@ h4 {
 .answear {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 55px;
+    margin-bottom: 55px;
 }
 
+.answear-space {            
+    margin-top: 65px;
+    margin-bottom: 65px;  
+}
 
 
 
@@ -189,6 +200,150 @@ input[type=submit]:active {
 
 
 
+
+@media screen and (max-width: 1300px) {
+
+    h2 {
+        font-size: 90px;
+        margin-top: 0;
+    }
+
+    body > div.TopSectionStyle > div > p {
+        padding-bottom: 10px;
+    }
+
+    .welcome {
+        font-size: 31px;
+    }
+
+    h4 {
+        font-size: 25px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 5px 80px;
+    }
+
+    .question-style {
+        font-size: 19px;
+    }
+
+    .answear {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    
+    .answear-space {            
+        margin-top: 45px;
+        margin-bottom: 45px;  
+    }
+    
+    input[type=submit] {
+        padding: 7px 59px;
+    }
+
+}
+
+
+/* @media screen and (max-width: 980px) {
+    
+    .container {
+        margin: 10px 80px;
+    }
+
+} */
+
+
+@media screen and (max-width: 900px) {
+    
+    h2 {
+        font-size: 75px;
+        margin-top: 0;
+    }
+
+    .container {
+        margin-top: 0;
+    }
+
+    h4 {
+        font-size: 25px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        padding: 5px 40px;
+    }
+
+    .answear {     
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: -3px;
+        margin-bottom: -30px;      
+    }
+
+    .answear-space {
+        margin-top: 10px;
+        margin-bottom: -30px;   
+    }
+    
+
+    label[for="x1"],
+    label[for="x2"] {
+        padding-inline: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    label[for="x1"] {
+        grid-column: 1/2;
+    }
+
+    label[for="x2"] {
+        grid-column: 2/3;
+    }
+
+    .button {
+        margin-top: 80px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+    h2 {
+        font-size: 55px;
+        margin-top: 0;
+    }
+
+    body > div.TopSectionStyle > div > p {
+        padding-bottom: 0px;
+    }
+    
+    .container {
+        margin-top: 5px;
+    }
+
+    .welcome {
+        font-size: 15px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    .question-style {
+        font-size: 9px;
+    }
+
+    span.bold {
+        font-size: 20px;
+
+    }
+
+    h2 {
+        font-size: 56px;
+    }
+}
 
 
 
