@@ -23,7 +23,6 @@ body > div.TopSectionStyle > div > p {
     padding-bottom: 20px;
 }
 
-
 .welcome {
     background-color: black;
     text-align: center;
@@ -35,7 +34,6 @@ body > div.TopSectionStyle > div > p {
     color: white;
     margin-bottom: -37px;
 }
-
 
 span.bold {
     font-size: 40px;
@@ -51,7 +49,6 @@ span.bold {
     margin: 10px auto;
     max-width: 1200px;
 }
-
 
 .question-style {
     display: flex;
@@ -70,8 +67,6 @@ label[for="x1"],
 label[for="x2"] {
     padding-inline: 100px;
 }
-
-
 
 label {
     display: flex;
@@ -102,7 +97,7 @@ input[type="radio"]:checked+label {
     background-color: #00cdac;
 }
 
-/* odpowiedzi blędne */
+/* --------- odpowiedzi blędne --------- */
 input[type="radio"]:checked+label[for="x2"],
 input[type="radio"]:checked+label[for="x4"],
 input[type="radio"]:checked+label[for="x6"],
@@ -112,7 +107,7 @@ input[type="radio"]:checked+label[for="x10"] {
     border: solid 3px black;
     background-color: red;
 }
-/* odpowiedzi blędne */
+/* --------- odpowiedzi blędne --------- */
 
 h4 {
     text-align: center;
@@ -186,9 +181,6 @@ input[type=submit]:active {
     background-color: black;
 }
 
-
-
-
 @media screen and (max-width: 1300px) {
 
     h2 {
@@ -231,16 +223,6 @@ input[type=submit]:active {
 
 }
 
-
-/* @media screen and (max-width: 980px) {
-    
-    .container {
-        margin: 10px 80px;
-    }
-
-} */
-
-
 @media screen and (max-width: 900px) {
     
     h2 {
@@ -256,7 +238,13 @@ input[type=submit]:active {
         font-size: 25px;
         margin-top: 40px;
         margin-bottom: 10px;
-        padding: 5px 40px;
+        padding: 5px 10px;
+    }
+
+    label {
+        display: flex;
+        margin-top: 2px;
+        outline: solid 2px black;
     }
 
     .answear {     
@@ -294,8 +282,6 @@ input[type=submit]:active {
     }
 }
 
-
-
 @media screen and (max-width: 500px) {
 
     h2 {
@@ -306,9 +292,9 @@ input[type=submit]:active {
     body > div.TopSectionStyle > div > p {
         padding-bottom: 0px;
     }
-    
+
     .container {
-        margin-top: 5px;
+        margin-top: -3px;
     }
 
     .welcome {
@@ -332,6 +318,4 @@ input[type=submit]:active {
         font-size: 56px;
     }
 }
-
-
 
