@@ -213,8 +213,8 @@ input[type=submit]:active {
     input[type=submit] {
         padding: 7px 59px;
     }
-
 }
+
 
 @media screen and (max-width: 900px) {
     
@@ -247,9 +247,10 @@ input[type=submit]:active {
         margin-bottom: -30px;      
     }
 
+    
     .answear-space {
         margin-top: 10px;
-        margin-bottom: -30px;   
+        margin-bottom: -8px;   
     }
     
 
