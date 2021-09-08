@@ -62,7 +62,6 @@ span.bold {
     /* background: linear-gradient(0.45turn, #00cdac ,#008085da); */
 }
 
-
 label[for="x1"],
 label[for="x2"] {
     padding-inline: 100px;
@@ -93,21 +92,21 @@ label:hover {
 
 input[type="radio"]:checked+label {
     color:white;
-    border: solid 3px black;
+    outline: solid 3px black;
     background-color: #00cdac;
 }
 
-/* --------- odpowiedzi blędne --------- */
+/* -------- odpowiedzi blędne -------- */
 input[type="radio"]:checked+label[for="x2"],
 input[type="radio"]:checked+label[for="x4"],
 input[type="radio"]:checked+label[for="x6"],
 input[type="radio"]:checked+label[for="x7"],
 input[type="radio"]:checked+label[for="x10"] {
     color:white;
-    border: solid 3px black;
+    outline: solid 3px black;
     background-color: red;
 }
-/* --------- odpowiedzi blędne --------- */
+/* -------- odpowiedzi blędne -------- */
 
 h4 {
     text-align: center;
@@ -121,7 +120,6 @@ h4 {
     background-color: black;
 }
 
-
 .answear {
     display: flex;
     justify-content: space-between;
@@ -134,8 +132,6 @@ h4 {
     margin-bottom: 65px;  
 }
 
-
-
 .hide {
     display: none;
     text-align: center;
@@ -143,11 +139,9 @@ h4 {
     font-weight: 450;
     margin-top: 40px;
     margin-bottom: 40px;
-
     outline: solid 3px black;
     background-color: #f7c05c;
 }
-
 
 .button {
     margin: 80px;
@@ -172,7 +166,6 @@ input[type=submit]:hover {
     border: solid 3px white;
     background-color: black;
 }
-
 
 input[type=submit]:active {
     transition: 0ms;
